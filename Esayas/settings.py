@@ -87,14 +87,26 @@ WSGI_APPLICATION = 'Esayas.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+# Old Database
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'railway',
+#         'HOST': 'containers-us-west-32.railway.app',
+#         'PORT': '7684',
+#         'USER': 'postgres',
+#         'PASSWORD': 'YDyOwpZkwI62sjG0lm8w',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'railway',
-        'HOST': 'containers-us-west-32.railway.app',
-        'PORT': '7684',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '51133',
         'USER': 'postgres',
-        'PASSWORD': 'YDyOwpZkwI62sjG0lm8w',
+        'PASSWORD': 'E6E2bf4FcgeGfABgg5C1C55CFd3DGcab',
     }
 }
 
